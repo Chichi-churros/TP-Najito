@@ -11,7 +11,7 @@ export default class HomeScreen extends Component<HomeScreenProps, {}> {
         <Text>Home!</Text>
         <Button
           title="Go to Settings"
-          onPress={() => navigation.navigate("Settings")}
+          onPress={() => navigation.navigate("Ingredients")}
         />
         <Button
           title="Go to Details"

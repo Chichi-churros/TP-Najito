@@ -34,7 +34,7 @@ class CocktailDbApi {
   }
 
   private createCocktail(drink: Drink){
-      
+      return new Cocktail(drink);
   }
 }
 
